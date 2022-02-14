@@ -63,3 +63,13 @@ BJDataParam {
     period： 4, //特效时间
   }
 }
+
+
+/* 刷新内容 */
+刷新数据的时候 只需要重复执行start方法就可以了 修改好参数然后重新执行
+echartsLayer.start(geoCoordMap, BJData, defaultParam);
+
+/* 销毁对象 */
+删除离开页面的时候记得销毁对象
+echartsLayer.remove();
+
