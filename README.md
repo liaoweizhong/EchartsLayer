@@ -1,6 +1,8 @@
 # EchartsLayer
 arcgis地图基于echarts的迁移图插件
 
+// 测试git提交冲突
+
 使用方式
 
 引入到项目中后
